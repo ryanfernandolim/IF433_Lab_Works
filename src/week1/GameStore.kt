@@ -1,8 +1,9 @@
-package oop_00000112913_RyanFernando.week01
+package week1
 
 fun main() {
-    val gameTitle = "DYNASTY WARRIORS: ORIGINS"
-    val price = 945000
+    val gameTitle = "Cyberpunk 2077"
+    val price = 600000
+    val userNote: String? = null
 
     val finalPrice = calculateDiscount(price)
 
@@ -11,9 +12,6 @@ fun main() {
         finalPrice = finalPrice,
         note = userNote
     )
-
-    val userNote: String? = null
-
 }
 
 fun calculateDiscount(price: Int): Int =
@@ -27,4 +25,3 @@ fun printReceipt(title: String, finalPrice: Int, note: String?) {
     println("Harga Akhir: Rp $finalPrice")
     println("Catatan    : ${note ?: "Tidak ada catatan"}")
 }
-

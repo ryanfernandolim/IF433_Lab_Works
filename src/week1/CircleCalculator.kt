@@ -1,4 +1,4 @@
-package oop_00000112913_RyanFernando.week01
+package week1
 
 fun main() {
     val radius = 7.0

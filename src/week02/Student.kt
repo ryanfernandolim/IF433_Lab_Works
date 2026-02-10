@@ -1,4 +1,4 @@
-package week02
+package oop_00000112913_RyanFernando.week02
 
 class Student (val name: String, val nim: String, var major: String) {
     init {

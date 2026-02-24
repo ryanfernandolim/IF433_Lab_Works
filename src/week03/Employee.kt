@@ -1,5 +1,7 @@
 package week03
 
+import kotlin.times
+
 class Employee(val name: String) {
     var salary: Int = 0
         set(value) {
@@ -10,6 +12,8 @@ class Employee(val name: String) {
                 field = value
             }
         }
+    val tax: Double
+        get() = salary * 0.1
 }
 
 private var performanceRating: Int = 3
@@ -22,3 +26,4 @@ fun increasePerformance() {
 fun printStatus() {
     println("Karyawan: $name, Rating: $performanceRating")
 }
+

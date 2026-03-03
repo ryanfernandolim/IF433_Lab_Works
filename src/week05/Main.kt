@@ -7,6 +7,25 @@ fun main() {
     val daftarPegawai: List<Pegawai> = listOf(dosen1, admin1)
     val math = MathHelper()
 
+    val ewallet = EWallet("Ryan", 50000.0)
+    val creditCard = CreditCard("Ryan", 100000.0)
+
+    val paymentList: List<PaymentMethod> = listOf(
+        ewallet,
+        creditCard
+    )
+
+    for (payment in paymentList) {
+        payment.processPayment(75000.0)
+
+        if (payment is EWallet) {
+            payment.topUp(50000.0)
+            payment.processPayment(75000.0)
+        }
+
+        println("----------------------")
+    }
+
     println("Luas Persegi: ${math.hitungLuas(4)}")
     println("Luas Persegi Panjang: ${math.hitungLuas(5, 3)}")
     println("Luas Lingkaran: ${math.hitungLuas(7.0)}")

@@ -6,10 +6,10 @@ fun processCheckout(method: PaymentMethod, amount: Double) {
 }
 
 fun main() {
-    val myWatch = Smartwatch()
+    val myWatch = SmartWatch()
     myWatch.showTime()
 
-    val myPhone = Smartphone()
+    val myPhone = SmartPhone()
     myPhone.turnOn()
 
     val pay1 = Gopay()

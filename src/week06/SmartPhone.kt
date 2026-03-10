@@ -1,6 +1,6 @@
 package week06
 
-class Smartphone : Camera, Phone {
+class SmartPhone : Camera, Phone {
     override fun turnOn() {
         super<Camera>.turnOn()
         super<Phone>.turnOn()

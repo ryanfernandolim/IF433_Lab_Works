@@ -1,6 +1,6 @@
 package week06
 
-interface Capabilities {
+interface BluetoothConnectable {
     fun connectToBluetooth()
 }
 

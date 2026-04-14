@@ -5,9 +5,9 @@ fun main() {
     val emptyOrder = Order(null, null)
 
     val destination = emptyOrder.deliveryDetails?.address?.city?.name ?: "Kota Tidak Diketahui"
-    print("Tujuan pengiitman: $destination")
+    print("Tujuan pengiriman: $destination")
 
-    println("\n=== TEST LET BLOCK ===")
+    println("\n\n=== TEST LET BLOCK ===")
     val validOrder = Order(null, 250000)
 
     val receipt = validOrder.totalPrice?.let { price ->
@@ -15,8 +15,10 @@ fun main() {
         "Transaksi Valid. Harga: Rp$price, Pajak: Rp$tax"
     } ?: "Transaksi Invalid: Harga belum di-set!"
 
+    println(receipt)
+
     println("\n=== TEST SAFE CASTING")
-    val mixedData: List<Any> = ListOf(
+    val mixedData: List<Any> = listOf(
         "Smartphone",
         1500000,
         UserProfile("Andi", null),

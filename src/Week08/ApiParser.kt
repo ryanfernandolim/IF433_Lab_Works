@@ -17,13 +17,21 @@ class ApiParser {
                 val warranty = rawJson["warranty"] as? Int ?: 12
                 Electronic(id, name, warranty)
             }
+
             "CLOTHING" -> {
                 val size = rawJson["size"] as? String ?: "All Size"
                 Clothing(id, name, size)
             }
+
             else -> null
         }
     }
-
-
+        fun checkout(product: Product) {
+            val id = when (product) {
+                is Electronic -> product.id
+                is Clothing -> product.id
+            }
+            val transactionId = JavaPaymentService.processPayment(id)!!
+            println("Pembayaran berhasil! Transaction ID: $transactionId")
+    }
 }

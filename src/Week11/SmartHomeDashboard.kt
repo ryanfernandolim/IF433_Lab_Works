@@ -31,4 +31,9 @@ fun main() {
     searchResult?.let {
         println(it.diagnose())
     }
+
+    println("\n=== RINGKASAN SISTEM ===")
+    with(homeDevices) {
+        println("Total perangkat terdaftar: ${this.size}")
+    }
 }

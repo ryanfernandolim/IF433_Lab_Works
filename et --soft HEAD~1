@@ -1,0 +1,163 @@
+[33m7be626f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m week11: create nullable receiver extension
+[33m7f65d8b[m week11: create string extension functions
+[33ma12fade[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m week10: (task) test full generic crypto architecture
+[33m99a3562[m week10: (task) initialize and populate transaction repository
+[33m1f176f3[m week10: (task) print dashboard using forEach on generic list
+[33m27aff24[m week10: (task) wrap repository data into ApiResponse
+[33md30ac75[m week10: (task) populate coin repository
+[33mbbe3921[m week10: (task) initialize coin repository
+[33mf0b5aec[m week10: (task) implement search logic in repository
+[33m370d12c[m week10: (task) create generic ApiResponse wrapper
+[33m03ab011[m week10: (task) implement generic WalletRepository
+[33md178e1f[m week10: (task) create Coin and Transaction models
+[33m527ae08[m week10: test math operations and comparable constraints
+[33m6c934a9[m week10: implement where clause for comparable constraints
+[33m0ca8bac[m week10: implement type constraint for numeric types
+[33m7b87501[m week10: test generic functions with Double and String
+[33ma1c1663[m week10: implement generic function with return type
+[33m4b7d39f[m week10: implement basic generic function printData
+[33m3682f99[m week10: implement PairBox in main function
+[33m76d2455[m week10: create PairBox class with multiple type parameters
+[33me584720[m week10: instantiate Box with Int and String types
+[33md114ccd[m week10: create generic Box class
+[33m67d93a9[m week09: (task) test full crypto trading data pipeline
+[33me9f81cc[m week09: (task) print worst performers and unique pairs
+[33m13beebd[m week09: (task) print top performers using forEach
+[33m27e3102[m week09: (task) extract unique trading pairs using map and toSet
+[33m73d8f42[m week09: (task) chain sortedBy and map for worst performers
+[33md8452a9[m week09: (task) chain sortedByDescending and map for top performers
+[33mb2c90be[m week09: (task) extract losing trades using filter
+[33m1011ec7[m week09: (task) extract winning trades using filter
+[33me74e5ac[m week09: (task) filter CLOSED trades only
+[33md304fd3[m week09: (task) populate mock trade history list
+[33m98786c2[m week09: (task) create TradeLog data class
+[33m03744fe[m week09: chain filter, sortedBy, and map on object collection
+[33mc8f2dea[m week09: create Student data class and list
+[33m7e91fc5[m week09: implement sortedByDescending and forEach
+[33mf6631d7[m week09: implement filter HOF to extract data
+[33m072bf6b[m week09: create basic lambdas using explicit and implicit syntax
+[33mfe419f2[m week09: implement map for key-value storage
+[33maf7b664[m week09: implement set to discard duplicate elements
+[33m04dcb95[m week09: create immutable and mutable list
+[33md79ece7[m week09: implement map for key-value storage
+[33m1d1e30d[m week09: implement set to discard duplicate elements
+[33m34f762b[m week09: create immutable and mutable list
+[33md8bb678[m week08: (task) test full e-commerce pipeline in main
+[33mcb480d3[m week08: (task) process mixed raw JSON list using as?
+[33m14e55de[m week08: (task) implement payment processing with !!
+[33m5342a3a[m week08: (task) create JavaPaymentService for payment interop
+[33m9e64414[m week08: (task) implement robust ApiParser using Elvis and requireNotNull
+[33m2b3400e[m week08: (task) create sealed class Product and data classes
+[33m129779b[m week08: simulate unit test failure using !!
+[33m3e17824[m week08: implement java interop using !!
+[33md51f9d0[m week08: create LegacyJavaAPI class in Java
+[33mcf28eb8[m week08: implement requireNotNull as safer alternative
+[33mfb1db83[m week08: (trial) trigger NullPointerException with !!
+[33m231994d[m week08: test safe casting in main
+[33m5b0695f[m week08: create fallback logic with as? and elvis
+[33mb662678[m week08: implement safe casting as? to filter collection
+[33m10b9e85[m week08: create mixed data collection
+[33m83d1556[m week08: implement safe call with let block
+[33m945da58[m week08: implement chained safe calls and elvis
+[33mf210987[m week08: create nested classes for Order
+[33m9532b1f[m week08: implement smart cast in function
+[33meaf63ac[m week08: create basic UserProfile with nullable fields
+[33ma5154dd[m week07: (task) test data class copy and sealed class event dispatch
+[33m54a8ab2[m week07: (task) simulate rarity and factory instantiation
+[33me119711[m week07: (task) test GameManager singleton in main
+[33mcf6765c[m week07: (task) implement exhaustive processEvent
+[33m5f2e73c[m week07: (task) create BattleState sealed class hierarchy
+[33m13dc744[m week07: (task) implement factory pattern in WeaponForge
+[33m6b97f8d[m week07: (task) create GameItem data class
+[33m4179fc3[m week07: (task) create ItemRarity enum
+[33m2ec199f[m week07: (task) create GameManager singleton
+[33m5f8f910[m week07: resolve sealed class exhaustive check
+[33md7aebe7[m week07: (trial) trigger non-exhaustive when compiler error
+[33m84a3fd3[m week07: create ApiResponse sealed class
+[33m169b51e[m week07: create AppState enum
+[33m8500ef5[m week07: implement copy and destructuring on data class
+[33m07c97bc[m week07: implement data class for structural equality
+[33m789966d[m week07: (trial) demonstrate regular class equality failure
+[33m775ec65[m week07: test Singleton and Companion Object in main
+[33m2d77ef9[m week07: implement companion object as factory in NetworkClient
+[33m34404a6[m week07: (trial) trigger private constructor error on NetworkClient
+[33m0644852[m week07: create singleton DatabaseManager
+[33meac339a[m week06: (task) test smart home system logic in main
+[33m0b6b2b6[m week06: (task) instantiate smart devices in main
+[33m214325e[m week06: (task) create SmartCCTV with compound interfaces
+[33meebf6a8[m week06: (task) implement advanced smart casting in Hub
+[33med19d9b[m week06: (task) create SmartHomeHub logic
+[33m7d0677a[m week06: (task) create SmartSpeaker
+[33m96197eb[m week06: (task) create SmartLamp
+[33mbcd94fa[m week06: (task) create smart home interfaces
+[33m4ab5ec4[m week06: implement decoupled processCheckout in main
+[33m9352feb[m week06: create Gopay and Creditcard
+[33mbf4c052[m week06: create PaymentMethod contract
+[33mf79700a[m wekk06: fix diamond problem using explict super delegation
+[33m6df6425[m week06: (trial) trigger the diamond problem compiler error
+[33mbdde129[m week06: create Camera and Phone interfaces with default methods
+[33mc8f9c61[m week06: create Smartwatch with multiple implementations
+[33m010595c[m week06: create compound interfaces
+[33me4e1e5a[m week06: create compound interfaces
+[33m7347084[m week06: create Watch abstract class
+[33m7bb7977[m week06: create Button class implementing Clickable
+[33m9c58e17[m week06: fix Clickable interface using abstract property
+[33m1c932c5[m week06: (trial) create Clickable interface with backing field error
+[33m40bf33d[m week06: fix Clickable interface using abstract property
+[33mbd039e3[m week06: (trial) create Clickable interface with backing field error
+[33m5d8d6a0[m week05: (task 2) add smart casting for EWallet topUp recovery
+[33m37bcc5b[m week05: (task 2) create CreditCard class
+[33m6ce9ae0[m week05: (task 2) create EWallet class
+[33m6fb2f6c[m week05: (task 2) create abstract PaymentMethod
+[33m187dacf[m week05: (task 1) create MathHelper class with overloading
+[33m22be8d4[m week05: (task 1) create MathHelper class with overloading
+[33m8aa1058[m week05: implement polymorphic collection and smart casting
+[33mde74194[m week05: create Admin class inheriting Pegawai
+[33m6cc67c8[m week05: create Dosen class inheriting Pegawai
+[33m90a1980[m week05: create abstract class Pegawai
+[33m32428f3[m week05: create abstract class Pegawai
+[33m1e9c291[m week04: (task 2) test Employee hierarchy in main
+[33md45bfcb[m week04: (task 2) create Developer class
+[33mae88fda[m week04: (task 2) create Manager class overriding Employee
+[33m4127d17[m week04: (task 2) create parent class Employee
+[33m5517a30[m week04: (task 1) test ElectricCar in main
+[33m92b2566[m week04: (task 1) create ElectricCar class with final override
+[33ma83b3e4[m week04: test Vehicle and Car in main
+[33m840782a[m week04: implement super keyword in Car accelerate
+[33m02900ee[m week04: create Car class extending Vehicle
+[33m2391f20[m week 04: create basic Vehicle parent class
+[33mb01aa53[m week03: (task 2) implement Player testing in main
+[33m5103ac9[m week03: (task 2) create Player class with private xp
+[33mb1a1412[m week03: (task 1) implement Weapon testing in main
+[33mdacf022[m week03: (task 1) create Weapon class with validation
+[33m9fb0b77[m week03: cleanup code
+[33m2da3a02[m week03: test all encapsulation logic in main
+[33m9cfc4cf[m week03: add private property
+[33mdbea759[m week03: fix setter using backing field
+[33m74300da[m week03: simulate stack overflow error in setter
+[33m524f0d7[m week03: create basic Employee class
+[33me6b73b2[m week02: (task 2) implement the game
+[33m1588356[m week02: (task 2) create Hero class
+[33m0b5355d[m week02: (task 1) implement library input system
+[33m9c290d6[m week02: (task 1) create Loan class with default args
+[33m3afc1db[m week02: implement selection logic for constructors
+[33m146ed91[m week02: challenge refactor primary constructor using default args
+[33m49bf920[m week02: challenge refactor primary constructor using default args
+[33m435410b[m week02: challenge refactor primary constructor using default args
+[33m04d37a9[m week02: add secondary constructor
+[33m1847031[m week02: implement user input and pre-validation
+[33m11fda2a[m week02: add warning validation in init block
+[33m0a4d807[m week02: create basic Student class structure
+[33mf6aa2d5[m week01: (tugas 2) implement null safety for user note
+[33m75ac4ab[m week01: (tugas 2) implement receipt printing
+[33m0029d5d[m week01: (tugas 2) implement discount logic
+[33m1ab1702[m week01: (tugas 2) setup GameStore file
+[33m5c99182[m week01: (tugas 1) clean up unused argos and comments
+[33m350ad8b[m week01: (tugas 1) convert checkSize to expression body function
+[33me97a3f6[m week01: (tugas 1) refactor variables to val and use string templates
+[33m7a4cc32[m week01: (tugas 1) add legacy CircleCalculator code
+[33mdff3729[m week01: implement null safety check
+[33m95be99b[m week01: add calculateStatus function
+[33m14b7b0d[m week01: implement grading logic using when expression
+[33m8027e14[m week01: refactor to use val and string templates
+[33mf37c52d[m week01: initial setup and procedural code
